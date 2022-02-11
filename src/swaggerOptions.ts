@@ -12,6 +12,9 @@ export const swaggerOptions: Options = {
       {
         url: 'http://localhost:3000',
       },
+      {
+        url: 'https://api-task-swagger.herokuapp.com',
+      },
     ],
   },
   apis: ['./src/routes/*.ts'],
