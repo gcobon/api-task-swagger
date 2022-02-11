@@ -1,7 +1,7 @@
 import app from './app';
 import { createConnection } from './db';
 
-const PORT = 3000;
+const PORT = app.get('PORT');
 createConnection();
 
 app.listen(PORT, () => {
