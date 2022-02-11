@@ -9,3 +9,6 @@
 
 #http request
 *.http
+
+#pub
+*.pub
