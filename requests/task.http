@@ -1,0 +1,29 @@
+#get tasks
+GET http://localhost:3000/task
+
+###
+#Create task
+POST http://localhost:3000/task
+Content-Type: application/json
+
+{
+  "name": "MANTENIMIENTO A LA DB",
+  "description": "A LAS 18 HORAS HACER MANTENIMIENTO A LA DB"
+}
+
+### find task
+GET http://localhost:3000/task/HKkuadd
+
+### delete task
+DELETE  http://localhost:3000/task/HKkua
+
+### update task
+PUT http://localhost:3000/task/dX2We
+Content-Type: application/json
+{
+  "name": "SEGUIR CON LA API DE FAZTTTTT",
+  "description": "PARA APRENDER A DOCUMENTAR"
+}
+
+### count tasks
+GET http://localhost:3000/task/count
